@@ -1,0 +1,94 @@
+body{
+	background-color: black;
+}
+
+.main{
+    background-color: black;
+    color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.category-item{
+
+}
+
+.category-name{
+}
+
+.category-box{
+
+}
+
+.position-item{
+}
+
+.position-name{
+}
+
+.ingridients{
+}
+
+.price{
+}a {
+	outline: none;
+}
+
+.navbar-container {
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 15px;
+	font-size: 0;
+}
+
+.navbar-container ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar-container ul li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.navbar-container ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;	
+	padding: 10px;
+	transition: color 0.5s;
+}
+
+.navbar-container ul li .underline {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li.active-link .underline {
+	width: 100%;
+	background-color: white;
+}
+
+.navbar-container ul li:hover .underline {
+	background-color: white;
+	width: 100%;
+}
+
+.navbar-container ul li:hover a {
+}
+
+.navbar-container ul li:active a {
+	transition: none;
+	color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
